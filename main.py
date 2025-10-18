@@ -317,8 +317,8 @@ def main() -> None:
             writer = LatexAlgebraWriter(args.latex_out, title=f"Algebras (n={n}, kind={want})", make_toc=True)
         except Exception as e:
             print(f"[warn] --latex-out ignored: {e}", file=sys.stderr)
-            writer = None
 
+    json_writer = None
     if args.json_out:
         try:
             from json_algebra_writer import JSONAlgebraWriter
