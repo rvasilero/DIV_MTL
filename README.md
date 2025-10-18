@@ -211,12 +211,12 @@ This metadata appears in the console summary and in both LaTeX and NDJSON output
 If you use this tool in scientific work, please cite our work as follows:
 
 ```bibtex
-@article{2025div_mtl,
+@preprint{2025div_mtl,
   title  = {Some remarks regarding MTL and divisible residuated algebras},
 journal  = {Mathematics}
   author = {Cristina Flaut, Dana Piciu and Radu VASILE},
   year   = {2025},
-  url    = {https://github.com/rvasilero/DIV_MTL},
+  url    = {https://www.preprints.org/manuscript/202510.0145/v1},
 }
 ```
 
